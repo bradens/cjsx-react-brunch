@@ -1,0 +1,27 @@
+{
+  "name": "coffee-react-brunch",
+  "version": "0.0.1",
+  "description": "Adds CJSX support to brunch.",
+  "author": "Braden Simpson",
+  "license": "MIT",
+  "homepage": "https://github.com/bradens/coffee-react-brunch",
+  "keywords": [
+    "react",
+    "brunch",
+    "plugin",
+    "jsx",
+    "js",
+    "cjsx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bradens/coffee-react-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+  },
+  "dependencies": {
+    "coffee-react-transform": "~0.5.1"
+  }
+}
