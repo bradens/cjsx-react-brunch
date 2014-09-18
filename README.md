@@ -1,4 +1,3 @@
-
 # Coffeescript JSX transform for brunch
 
 ## coffee-react-brunch
