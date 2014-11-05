@@ -22,6 +22,6 @@
     "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
   },
   "dependencies": {
-    "coffee-react-transform": "~0.5.1"
+    "coffee-react-transform": "~2.0.0"
   }
 }
