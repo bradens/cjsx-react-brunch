@@ -20,8 +20,10 @@ exports.config =
   modules:
     nameCleaner: (path) ->
       path
-        # Strip the .cjsx extension from module names
-        .replace(/\.cjsx/, '')
+        # Strip "app/" prefix from module names (Default behavior)
+        .replace /^app\//, ''
+        # Strip .cjsx extension from module names
+        .replace /\.cjsx/, ''
 
 
   # Usual brunch config stuf...
